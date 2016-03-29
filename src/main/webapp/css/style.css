@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+input[type=text], input[type=password]
+{
+    width: 200px;
+    height: 20px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    background-color: beige;
+    -webkit-appearance: none;
+    font-family: "Courier New";
+    font-weight: bold;
+}
+
+input#TransactionID, #NewItemID, #NewQty, 
+#NewStockID, #NewStockValue,
+#NewOfferID, #NewOfferQty, #NewOfferValue
+{
+    width: 50px;
+    margin-right: 10px;
+}
+
+input[type=button], input[type=submit]
+{
+    padding: 5px;
+    background-color: #3399ff;
+    color: #fff;
+    width: 70px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px #2d2d2d;
+    -webkit-box-shadow: 0px 1px 2px #2d2d2d;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+table th
+{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-family: "Courier New";
+}
+
+table td
+{
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
+    vertical-align: top; 
+}
+
+img#img_shadow
+{
+    background-color: #2d2d2d;
+    box-shadow: 0px 2px 10px #2d2d2d;
+    -webkit-box-shadow: 0px 2px 10px #2d2d2d;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+table
+{
+    text-align: center;
+    border: solid #3399ff 1px;
+    box-shadow: 0px 2px 10px #2d2d2d;
+    -webkit-box-shadow: 0px 2px 10px #2d2d2d;
+    border-radius: 5px;
+}
+
+table#stockTbl, #specialTbl
+{
+    border: solid burlywood 1px;
+    width: 300px;
+}
+
+table#checkout
+{
+    border: solid fuchsia 1px;
+    width: 250px;
+}
+
+table#masterTbl
+{
+    border: none;
+    box-shadow: none;
+}
+
+p
+{
+    padding-left: 5px;
+    text-align: left;
+    font-size: 10px;
+    font-family: "Courier New";
+}
+
+p#right_txt, #TillRoll
+{
+    text-align: right;
+}
+
+h2#msgOutput
+{
+    font-family: "Courier New";
+    color: red;
+    font-size: 15px;
+    text-align: left;
+}
